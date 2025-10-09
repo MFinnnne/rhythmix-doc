@@ -35,9 +35,9 @@ public class QuickStartExample {
 
 The expression `{>1}->{count(<1,3)}->{==3}` means:
 
-1. **`{>1}`** -`First value must be greater than 1
-2. **`{count(<1,3)}`** - Then we need 3 values less than 1 (non-consecutive)
-3. **`{==3}`** - Finally, value must equal 3
+1. **First state** - First value must be greater than 1
+2. **Second state** - Then we need 3 values less than 1 (non-consecutive)
+3. **Third state** - Finally, value must equal 3
 
 ## Step-by-Step Execution
 

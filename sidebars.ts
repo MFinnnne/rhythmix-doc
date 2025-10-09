@@ -21,9 +21,21 @@ const sidebars: SidebarsConfig = {
             label: '🚀 Getting Started',
             collapsed: false,
             items: [
-                'getting-started/installation',
-                'getting-started/quick-start',
-                'getting-started/basic-concepts',
+                {
+                    type: 'doc',
+                    id: 'getting-started/installation',
+                    label: 'Installation',
+                },
+                {
+                    type: 'doc',
+                    id: 'getting-started/quick-start',
+                    label: 'Quick Start',
+                },
+                {
+                    type: 'doc',
+                    id: 'getting-started/basic-concepts',
+                    label: 'Basic Concepts',
+                },
             ],
         },
         {
@@ -31,29 +43,81 @@ const sidebars: SidebarsConfig = {
             label: '📝 Expression Syntax',
             collapsed: false,
             items: [
-                'expressions/overview',
-                'expressions/comparison',
-                'expressions/interval',
-                'expressions/logical',
+                {
+                    type: 'doc',
+                    id: 'expressions/overview',
+                    label: 'Expression Syntax Overview',
+                },
+                {
+                    type: 'doc',
+                    id: 'expressions/comparison',
+                    label: 'Comparison Expressions',
+                },
+                {
+                    type: 'doc',
+                    id: 'expressions/interval',
+                    label: 'Interval Expressions',
+                },
+                {
+                    type: 'doc',
+                    id: 'expressions/logical',
+                    label: 'Logical Expressions',
+                },
                 {
                     type: 'category',
                     label: 'Functions',
                     items: [
-                        'expressions/functions/count',
-                        'expressions/functions/count-strict',
+                        {
+                            type: 'doc',
+                            id: 'expressions/functions/count',
+                            label: 'Count Function',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'expressions/functions/count-strict',
+                            label: 'Count! (Strict Count) Function',
+                        },
                     ],
                 },
                 {
                     type: 'category',
                     label: 'Chain Expressions',
                     items: [
-                        'expressions/chain/overview',
-                        'expressions/chain/filter',
-                        'expressions/chain/limit',
-                        'expressions/chain/window',
-                        'expressions/chain/take',
-                        'expressions/chain/calculators',
-                        'expressions/chain/meet',
+                        {
+                            type: 'doc',
+                            id: 'expressions/chain/overview',
+                            label: 'Chain Expressions Overview',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'expressions/chain/filter',
+                            label: 'Filter',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'expressions/chain/limit',
+                            label: 'Limit',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'expressions/chain/window',
+                            label: 'Window',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'expressions/chain/take',
+                            label: 'Take',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'expressions/chain/calculators',
+                            label: 'Calculators',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'expressions/chain/meet',
+                            label: 'Meet',
+                        },
                     ],
                 },
             ],
@@ -63,10 +127,26 @@ const sidebars: SidebarsConfig = {
             label: '🔧 Advanced Features',
             collapsed: true,
             items: [
-                'advanced/custom-filters',
-                'advanced/custom-calculators',
-                'advanced/custom-meet-functions',
-                'advanced/state-transitions',
+                {
+                    type: 'doc',
+                    id: 'advanced/custom-filters',
+                    label: 'Custom Filters',
+                },
+                {
+                    type: 'doc',
+                    id: 'advanced/custom-calculators',
+                    label: 'Custom Calculators',
+                },
+                {
+                    type: 'doc',
+                    id: 'advanced/custom-meet-functions',
+                    label: 'Custom Meet Functions',
+                },
+                {
+                    type: 'doc',
+                    id: 'advanced/state-transitions',
+                    label: 'State Transitions',
+                },
             ],
         },
         {
@@ -74,9 +154,21 @@ const sidebars: SidebarsConfig = {
             label: '📚 API Reference',
             collapsed: true,
             items: [
-                'api/rhythmix-event-data',
-                'api/rhythmix-compiler',
-                'api/rhythmix-executor',
+                {
+                    type: 'doc',
+                    id: 'api/rhythmix-event-data',
+                    label: 'RhythmixEventData',
+                },
+                {
+                    type: 'doc',
+                    id: 'api/rhythmix-compiler',
+                    label: 'RhythmixCompiler',
+                },
+                {
+                    type: 'doc',
+                    id: 'api/rhythmix-executor',
+                    label: 'RhythmixExecutor',
+                },
             ],
         },
         {
@@ -84,12 +176,36 @@ const sidebars: SidebarsConfig = {
             label: '💡 Examples & Use Cases',
             collapsed: true,
             items: [
-                'examples/temperature-monitoring',
-                'examples/production-quality',
-                'examples/network-monitoring',
-                'examples/sensor-data',
-                'examples/financial-risk',
-                'examples/medical-devices',
+                {
+                    type: 'doc',
+                    id: 'examples/temperature-monitoring',
+                    label: 'Temperature Monitoring',
+                },
+                {
+                    type: 'doc',
+                    id: 'examples/production-quality',
+                    label: 'Production Quality Control',
+                },
+                {
+                    type: 'doc',
+                    id: 'examples/network-monitoring',
+                    label: 'Network Monitoring',
+                },
+                {
+                    type: 'doc',
+                    id: 'examples/sensor-data',
+                    label: 'Sensor Data Processing',
+                },
+                {
+                    type: 'doc',
+                    id: 'examples/financial-risk',
+                    label: 'Financial Risk Detection',
+                },
+                {
+                    type: 'doc',
+                    id: 'examples/medical-devices',
+                    label: 'Medical Device Monitoring',
+                },
             ],
         },
         {
@@ -97,11 +213,31 @@ const sidebars: SidebarsConfig = {
             label: '📖 Appendix',
             collapsed: true,
             items: [
-                'appendix/comparison-examples',
-                'appendix/interval-examples',
-                'appendix/logical-examples',
-                'appendix/best-practices',
-                'appendix/faq',
+                {
+                    type: 'doc',
+                    id: 'appendix/comparison-examples',
+                    label: 'Comparison Expression Examples',
+                },
+                {
+                    type: 'doc',
+                    id: 'appendix/interval-examples',
+                    label: 'Interval Expression Examples',
+                },
+                {
+                    type: 'doc',
+                    id: 'appendix/logical-examples',
+                    label: 'Logical Expression Examples',
+                },
+                {
+                    type: 'doc',
+                    id: 'appendix/best-practices',
+                    label: 'Best Practices',
+                },
+                {
+                    type: 'doc',
+                    id: 'appendix/faq',
+                    label: 'FAQ',
+                },
             ],
         },
     ],

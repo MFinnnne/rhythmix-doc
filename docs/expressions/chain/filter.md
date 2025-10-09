@@ -219,10 +219,10 @@ String expression = "filter((>threshold&&<max)||==special_value).sum().meet(>tar
 
 ## Performance Considerations
 
-- `Filtering reduces data early in the pipeline`
-- `Simple conditions (>, <, ==) are fastest`
-- `Complex logical expressions take slightly longer`
-- `Filter before limit/window for better performance`
+- Filtering reduces data early in the pipeline
+- Simple conditions (greater than, less than, equals) are fastest
+- Complex logical expressions take slightly longer
+- Filter before limit/window for better performance
 
 ## Common Pitfalls
 

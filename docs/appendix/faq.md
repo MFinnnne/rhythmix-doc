@@ -53,10 +53,10 @@ No, you cannot use both in the same expression. Choose one based on your needs:
 
 ### What's the difference between (a,b) and [a,b]?
 
-- `(a,b)`: `Exclusive boundaries (> a AND < b)`
-- `[a,b]`: `Inclusive boundaries (>= a AND <= b)`
-- `(a,b]`: `Mixed (> a AND <= b)`
-- `[a,b)`: `Mixed (>= a AND < b)`
+- `(a,b)`: Exclusive boundaries - value must be greater than a AND less than b
+- `[a,b]`: Inclusive boundaries - value must be greater than or equal to a AND less than or equal to b
+- `(a,b]`: Mixed - value must be greater than a AND less than or equal to b
+- `[a,b)`: Mixed - value must be greater than or equal to a AND less than b
 
 ### How do I exclude error codes?
 

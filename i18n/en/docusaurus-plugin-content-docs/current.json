@@ -1,0 +1,42 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.rhythmixSidebar.category.🚀 Getting Started": {
+    "message": "🚀 Getting Started",
+    "description": "The label for category 🚀 Getting Started in sidebar rhythmixSidebar"
+  },
+  "sidebar.rhythmixSidebar.category.📝 Expression Syntax": {
+    "message": "📝 Expression Syntax",
+    "description": "The label for category 📝 Expression Syntax in sidebar rhythmixSidebar"
+  },
+  "sidebar.rhythmixSidebar.category.Functions": {
+    "message": "Functions",
+    "description": "The label for category Functions in sidebar rhythmixSidebar"
+  },
+  "sidebar.rhythmixSidebar.category.Chain Expressions": {
+    "message": "Chain Expressions",
+    "description": "The label for category Chain Expressions in sidebar rhythmixSidebar"
+  },
+  "sidebar.rhythmixSidebar.category.🔧 Advanced Features": {
+    "message": "🔧 Advanced Features",
+    "description": "The label for category 🔧 Advanced Features in sidebar rhythmixSidebar"
+  },
+  "sidebar.rhythmixSidebar.category.📚 API Reference": {
+    "message": "📚 API Reference",
+    "description": "The label for category 📚 API Reference in sidebar rhythmixSidebar"
+  },
+  "sidebar.rhythmixSidebar.category.💡 Examples & Use Cases": {
+    "message": "💡 Examples & Use Cases",
+    "description": "The label for category 💡 Examples & Use Cases in sidebar rhythmixSidebar"
+  },
+  "sidebar.rhythmixSidebar.category.📖 Appendix": {
+    "message": "📖 Appendix",
+    "description": "The label for category 📖 Appendix in sidebar rhythmixSidebar"
+  },
+  "sidebar.rhythmixSidebar.doc.Introduction": {
+    "message": "Introduction",
+    "description": "The label for the doc item Introduction in sidebar rhythmixSidebar, linking to the doc intro"
+  }
+}

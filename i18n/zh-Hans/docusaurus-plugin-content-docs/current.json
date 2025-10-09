@@ -1,0 +1,178 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.rhythmixSidebar.category.🚀 Getting Started": {
+    "message": "🚀 快速开始",
+    "description": "The label for category 🚀 Getting Started in sidebar rhythmixSidebar"
+  },
+  "sidebar.rhythmixSidebar.category.📝 Expression Syntax": {
+    "message": "📝 表达式语法",
+    "description": "The label for category 📝 Expression Syntax in sidebar rhythmixSidebar"
+  },
+  "sidebar.rhythmixSidebar.category.Functions": {
+    "message": "函数",
+    "description": "The label for category Functions in sidebar rhythmixSidebar"
+  },
+  "sidebar.rhythmixSidebar.category.Chain Expressions": {
+    "message": "链式表达式",
+    "description": "The label for category Chain Expressions in sidebar rhythmixSidebar"
+  },
+  "sidebar.rhythmixSidebar.category.🔧 Advanced Features": {
+    "message": "🔧 高级特性",
+    "description": "The label for category 🔧 Advanced Features in sidebar rhythmixSidebar"
+  },
+  "sidebar.rhythmixSidebar.category.📚 API Reference": {
+    "message": "📚 API 参考",
+    "description": "The label for category 📚 API Reference in sidebar rhythmixSidebar"
+  },
+  "sidebar.rhythmixSidebar.category.💡 Examples & Use Cases": {
+    "message": "💡 示例与用例",
+    "description": "The label for category 💡 Examples & Use Cases in sidebar rhythmixSidebar"
+  },
+  "sidebar.rhythmixSidebar.category.📖 Appendix": {
+    "message": "📖 附录",
+    "description": "The label for category 📖 Appendix in sidebar rhythmixSidebar"
+  },
+  "sidebar.rhythmixSidebar.doc.Introduction": {
+    "message": "简介",
+    "description": "The label for the doc item Introduction in sidebar rhythmixSidebar, linking to the doc intro"
+  },
+  "sidebar.rhythmixSidebar.doc.Installation": {
+    "message": "安装",
+    "description": "The label for the doc item Installation in sidebar rhythmixSidebar, linking to the doc getting-started/installation"
+  },
+  "sidebar.rhythmixSidebar.doc.Quick Start": {
+    "message": "快速入门",
+    "description": "The label for the doc item Quick Start in sidebar rhythmixSidebar, linking to the doc getting-started/quick-start"
+  },
+  "sidebar.rhythmixSidebar.doc.Basic Concepts": {
+    "message": "基本概念",
+    "description": "The label for the doc item Basic Concepts in sidebar rhythmixSidebar, linking to the doc getting-started/basic-concepts"
+  },
+  "sidebar.rhythmixSidebar.doc.Expression Syntax Overview": {
+    "message": "表达式语法概述",
+    "description": "The label for the doc item Expression Syntax Overview in sidebar rhythmixSidebar, linking to the doc expressions/overview"
+  },
+  "sidebar.rhythmixSidebar.doc.Comparison Expressions": {
+    "message": "比较表达式",
+    "description": "The label for the doc item Comparison Expressions in sidebar rhythmixSidebar, linking to the doc expressions/comparison"
+  },
+  "sidebar.rhythmixSidebar.doc.Interval Expressions": {
+    "message": "区间表达式",
+    "description": "The label for the doc item Interval Expressions in sidebar rhythmixSidebar, linking to the doc expressions/interval"
+  },
+  "sidebar.rhythmixSidebar.doc.Logical Expressions": {
+    "message": "逻辑表达式",
+    "description": "The label for the doc item Logical Expressions in sidebar rhythmixSidebar, linking to the doc expressions/logical"
+  },
+  "sidebar.rhythmixSidebar.doc.Count Function": {
+    "message": "计数函数",
+    "description": "The label for the doc item Count Function in sidebar rhythmixSidebar, linking to the doc expressions/functions/count"
+  },
+  "sidebar.rhythmixSidebar.doc.Count! (Strict Count) Function": {
+    "message": "严格计数函数",
+    "description": "The label for the doc item Count! (Strict Count) Function in sidebar rhythmixSidebar, linking to the doc expressions/functions/count-strict"
+  },
+  "sidebar.rhythmixSidebar.doc.Chain Expressions Overview": {
+    "message": "链式表达式概述",
+    "description": "The label for the doc item Chain Expressions Overview in sidebar rhythmixSidebar, linking to the doc expressions/chain/overview"
+  },
+  "sidebar.rhythmixSidebar.doc.Filter": {
+    "message": "过滤器",
+    "description": "The label for the doc item Filter in sidebar rhythmixSidebar, linking to the doc expressions/chain/filter"
+  },
+  "sidebar.rhythmixSidebar.doc.Limit": {
+    "message": "限制",
+    "description": "The label for the doc item Limit in sidebar rhythmixSidebar, linking to the doc expressions/chain/limit"
+  },
+  "sidebar.rhythmixSidebar.doc.Window": {
+    "message": "窗口",
+    "description": "The label for the doc item Window in sidebar rhythmixSidebar, linking to the doc expressions/chain/window"
+  },
+  "sidebar.rhythmixSidebar.doc.Take": {
+    "message": "提取",
+    "description": "The label for the doc item Take in sidebar rhythmixSidebar, linking to the doc expressions/chain/take"
+  },
+  "sidebar.rhythmixSidebar.doc.Calculators": {
+    "message": "计算器",
+    "description": "The label for the doc item Calculators in sidebar rhythmixSidebar, linking to the doc expressions/chain/calculators"
+  },
+  "sidebar.rhythmixSidebar.doc.Meet": {
+    "message": "满足条件",
+    "description": "The label for the doc item Meet in sidebar rhythmixSidebar, linking to the doc expressions/chain/meet"
+  },
+  "sidebar.rhythmixSidebar.doc.Custom Filters": {
+    "message": "自定义过滤器",
+    "description": "The label for the doc item Custom Filters in sidebar rhythmixSidebar, linking to the doc advanced/custom-filters"
+  },
+  "sidebar.rhythmixSidebar.doc.Custom Calculators": {
+    "message": "自定义计算器",
+    "description": "The label for the doc item Custom Calculators in sidebar rhythmixSidebar, linking to the doc advanced/custom-calculators"
+  },
+  "sidebar.rhythmixSidebar.doc.Custom Meet Functions": {
+    "message": "自定义满足函数",
+    "description": "The label for the doc item Custom Meet Functions in sidebar rhythmixSidebar, linking to the doc advanced/custom-meet-functions"
+  },
+  "sidebar.rhythmixSidebar.doc.State Transitions": {
+    "message": "状态转换",
+    "description": "The label for the doc item State Transitions in sidebar rhythmixSidebar, linking to the doc advanced/state-transitions"
+  },
+  "sidebar.rhythmixSidebar.doc.RhythmixEventData": {
+    "message": "RhythmixEventData",
+    "description": "The label for the doc item RhythmixEventData in sidebar rhythmixSidebar, linking to the doc api/rhythmix-event-data"
+  },
+  "sidebar.rhythmixSidebar.doc.RhythmixCompiler": {
+    "message": "RhythmixCompiler",
+    "description": "The label for the doc item RhythmixCompiler in sidebar rhythmixSidebar, linking to the doc api/rhythmix-compiler"
+  },
+  "sidebar.rhythmixSidebar.doc.RhythmixExecutor": {
+    "message": "RhythmixExecutor",
+    "description": "The label for the doc item RhythmixExecutor in sidebar rhythmixSidebar, linking to the doc api/rhythmix-executor"
+  },
+  "sidebar.rhythmixSidebar.doc.Temperature Monitoring": {
+    "message": "温度监控",
+    "description": "The label for the doc item Temperature Monitoring in sidebar rhythmixSidebar, linking to the doc examples/temperature-monitoring"
+  },
+  "sidebar.rhythmixSidebar.doc.Production Quality Control": {
+    "message": "生产质量控制",
+    "description": "The label for the doc item Production Quality Control in sidebar rhythmixSidebar, linking to the doc examples/production-quality"
+  },
+  "sidebar.rhythmixSidebar.doc.Network Monitoring": {
+    "message": "网络监控",
+    "description": "The label for the doc item Network Monitoring in sidebar rhythmixSidebar, linking to the doc examples/network-monitoring"
+  },
+  "sidebar.rhythmixSidebar.doc.Sensor Data Processing": {
+    "message": "传感器数据处理",
+    "description": "The label for the doc item Sensor Data Processing in sidebar rhythmixSidebar, linking to the doc examples/sensor-data"
+  },
+  "sidebar.rhythmixSidebar.doc.Financial Risk Detection": {
+    "message": "金融风险检测",
+    "description": "The label for the doc item Financial Risk Detection in sidebar rhythmixSidebar, linking to the doc examples/financial-risk"
+  },
+  "sidebar.rhythmixSidebar.doc.Medical Device Monitoring": {
+    "message": "医疗设备监控",
+    "description": "The label for the doc item Medical Device Monitoring in sidebar rhythmixSidebar, linking to the doc examples/medical-devices"
+  },
+  "sidebar.rhythmixSidebar.doc.Comparison Expression Examples": {
+    "message": "比较表达式示例",
+    "description": "The label for the doc item Comparison Expression Examples in sidebar rhythmixSidebar, linking to the doc appendix/comparison-examples"
+  },
+  "sidebar.rhythmixSidebar.doc.Interval Expression Examples": {
+    "message": "区间表达式示例",
+    "description": "The label for the doc item Interval Expression Examples in sidebar rhythmixSidebar, linking to the doc appendix/interval-examples"
+  },
+  "sidebar.rhythmixSidebar.doc.Logical Expression Examples": {
+    "message": "逻辑表达式示例",
+    "description": "The label for the doc item Logical Expression Examples in sidebar rhythmixSidebar, linking to the doc appendix/logical-examples"
+  },
+  "sidebar.rhythmixSidebar.doc.Best Practices": {
+    "message": "最佳实践",
+    "description": "The label for the doc item Best Practices in sidebar rhythmixSidebar, linking to the doc appendix/best-practices"
+  },
+  "sidebar.rhythmixSidebar.doc.FAQ": {
+    "message": "常见问题",
+    "description": "The label for the doc item FAQ in sidebar rhythmixSidebar, linking to the doc appendix/faq"
+  }
+}
