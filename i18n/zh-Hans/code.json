@@ -325,5 +325,33 @@
   "theme.tags.tagsPageTitle": {
     "message": "标签",
     "description": "The title of the tag list page"
+  },
+  "homepage.getStarted": {
+    "message": "快速开始 - 5分钟 ⏱️",
+    "description": "The homepage Get Started button label"
+  },
+  "homepage.features.easyToUse.title": {
+    "message": "简单易用",
+    "description": "The title of the Easy to Use feature"
+  },
+  "homepage.features.easyToUse.description": {
+    "message": "Rhythmix 从设计之初就注重易用性，通过简单的表达式即可轻松集成和处理流数据。",
+    "description": "The description of the Easy to Use feature"
+  },
+  "homepage.features.focusOnWhatMatters.title": {
+    "message": "专注核心业务",
+    "description": "The title of the Focus on What Matters feature"
+  },
+  "homepage.features.focusOnWhatMatters.description": {
+    "message": "Rhythmix 让您专注于业务逻辑。使用简单的表达式代替复杂的代码来处理流数据。",
+    "description": "The description of the Focus on What Matters feature"
+  },
+  "homepage.features.poweredByJava.title": {
+    "message": "基于 Java 构建",
+    "description": "The title of the Powered by Java feature"
+  },
+  "homepage.features.poweredByJava.description": {
+    "message": "使用 Java 构建，具有高性能和可靠性。可轻松扩展自定义过滤器、计算器和满足函数。",
+    "description": "The description of the Powered by Java feature"
   }
 }
