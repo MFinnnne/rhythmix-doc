@@ -76,7 +76,7 @@ public class VitalSignsMonitor {
 
 ## Next Steps
 
-- [Temperature Monitoring](./temperature-monitoring.md)
-- [count!() Function](../expressions/functions/count-strict.md)
-- [State Transitions](../advanced/state-transitions.md)
+- [Temperature Monitoring](./temperature-monitoring)
+- [count!() Function](../expressions/functions/count-strict)
+- [State Transitions](../advanced/state-transitions)
 

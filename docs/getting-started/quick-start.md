@@ -1,3 +1,10 @@
+<!--
+ * @Author: MFine
+ * @Date: 2025-10-09 00:02:47
+ * @LastEditTime: 2025-10-15 00:14:03
+ * @LastEditors: MFine
+ * @Description: 
+-->
 # Quick Start
 
 Get started with Rhythmix in just a few minutes!
@@ -83,7 +90,7 @@ boolean result = executor.execute(data); // true - found 3 values > 4
 
 ## Next Steps
 
-- Learn about [Expression Syntax](../expressions/overview.md)
-- Explore [Chain Expressions](../expressions/chain/overview.md)
-- Check out [Examples](../examples/temperature-monitoring.md)
+- Learn about [Expression Syntax](../expressions/overview)
+- Explore [Chain Expressions](../expressions/chain/overview)
+- Check out [Examples](../examples/temperature-monitoring)
 

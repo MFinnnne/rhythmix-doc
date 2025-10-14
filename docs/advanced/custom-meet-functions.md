@@ -155,7 +155,7 @@ public class MultiConditionMeetUDF implements ChainMeetUDF {
 
 ## Next Steps
 
-- [Custom Filters](./custom-filters.md)
-- [Custom Calculators](./custom-calculators.md)
-- [Chain Expressions](../expressions/chain/overview.md)
+- [Custom Filters](./custom-filters)
+- [Custom Calculators](./custom-calculators)
+- [Chain Expressions](../expressions/chain/overview)
 

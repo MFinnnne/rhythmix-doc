@@ -293,12 +293,12 @@ You can create custom meet functions for specialized validation:
 "avg().customRangeMeet()"
 ```
 
-[Learn more about Custom Meet Functions →](../../advanced/custom-meet-functions.md)
+[Learn more about Custom Meet Functions →](../../advanced/custom-meet-functions)
 
 ## Next Steps
 
-- [Calculators](./calculators.md) - Perform calculations
-- [Custom Meet Functions](../../advanced/custom-meet-functions.md) - Create custom validation
+- [Calculators](./calculators) - Perform calculations
+- [Custom Meet Functions](../../advanced/custom-meet-functions) - Create custom validation
 - [Chain Overview](./overview.md) - Complete chain expression guide
-- [Examples](../../examples/temperature-monitoring.md) - Real-world applications
+- [Examples](../../examples/temperature-monitoring) - Real-world applications
 

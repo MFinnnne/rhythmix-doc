@@ -115,7 +115,7 @@ public class ArrayFilterUDF implements FilterUDF {
 
 ## Next Steps
 
-- [Custom Calculators](./custom-calculators.md)
-- [Custom Meet Functions](./custom-meet-functions.md)
-- [Chain Expressions](../expressions/chain/overview.md)
+- [Custom Calculators](./custom-calculators)
+- [Custom Meet Functions](./custom-meet-functions)
+- [Chain Expressions](../expressions/chain/overview)
 

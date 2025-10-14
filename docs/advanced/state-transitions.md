@@ -106,7 +106,7 @@ For simple sequential values:
 
 ## Next Steps
 
-- [Expression Overview](../expressions/overview.md)
-- [Chain Expressions](../expressions/chain/overview.md)
-- [Examples](../examples/temperature-monitoring.md)
+- [Expression Overview](../expressions/overview)
+- [Chain Expressions](../expressions/chain/overview)
+- [Examples](../examples/temperature-monitoring)
 

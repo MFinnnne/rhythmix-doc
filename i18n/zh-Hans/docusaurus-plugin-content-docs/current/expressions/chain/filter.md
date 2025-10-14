@@ -151,7 +151,7 @@ Rhythmix 支持用于复杂过滤逻辑的自定义过滤器函数:
 String expression = "customFilter().sum().meet(>100)";
 ```
 
-[了解更多关于自定义过滤器 →](../../advanced/custom-filters.md)
+[了解更多关于自定义过滤器 →](../../advanced/custom-filters)
 
 ## 最佳实践
 

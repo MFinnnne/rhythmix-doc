@@ -72,7 +72,7 @@ Comprehensive examples of interval expressions in real-world scenarios.
 
 ## See Also
 
-- [Interval Expressions](../expressions/interval.md)
-- [Comparison Examples](./comparison-examples.md)
-- [Logical Examples](./logical-examples.md)
+- [Interval Expressions](../expressions/interval)
+- [Comparison Examples](./comparison-examples)
+- [Logical Examples](./logical-examples)
 

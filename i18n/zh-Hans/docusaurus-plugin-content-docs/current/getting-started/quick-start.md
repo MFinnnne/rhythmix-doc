@@ -93,5 +93,5 @@ boolean result = executor.execute(data); // true - 找到 3 个大于 4 的值
 
 - 学习[表达式语法](../expressions/overview)
 - 探索[链式表达式](../expressions/chain/overview)
-- 查看[示例](../examples/temperature-monitoring.md)
+- 查看[示例](../examples/temperature-monitoring)
 

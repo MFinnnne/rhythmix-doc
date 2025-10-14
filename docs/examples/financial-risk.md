@@ -77,7 +77,7 @@ public class RiskMonitor {
 
 ## Next Steps
 
-- [Network Monitoring](./network-monitoring.md)
-- [Logical Expressions](../expressions/logical.md)
-- [State Transitions](../advanced/state-transitions.md)
+- [Network Monitoring](./network-monitoring)
+- [Logical Expressions](../expressions/logical)
+- [State Transitions](../advanced/state-transitions)
 

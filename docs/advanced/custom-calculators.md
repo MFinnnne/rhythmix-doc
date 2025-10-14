@@ -108,7 +108,7 @@ public class MinCalculator implements ChainCalculatorUDF {
 
 ## Next Steps
 
-- [Custom Filters](./custom-filters.md)
-- [Custom Meet Functions](./custom-meet-functions.md)
-- [Chain Expressions](../expressions/chain/overview.md)
+- [Custom Filters](./custom-filters)
+- [Custom Meet Functions](./custom-meet-functions)
+- [Chain Expressions](../expressions/chain/overview)
 

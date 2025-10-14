@@ -122,7 +122,7 @@ RhythmixExecutor executor2 = RhythmixCompiler.compile(expression);
 
 ## Next Steps
 
-- [RhythmixCompiler](./rhythmix-compiler.md)
-- [RhythmixEventData](./rhythmix-event-data.md)
-- [Expression Syntax](../expressions/overview.md)
+- [RhythmixCompiler](./rhythmix-compiler)
+- [RhythmixEventData](./rhythmix-event-data)
+- [Expression Syntax](../expressions/overview)
 

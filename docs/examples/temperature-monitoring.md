@@ -102,7 +102,7 @@ public class TemperatureMonitor {
 
 ## Next Steps
 
-- [Production Quality Control](./production-quality.md)
-- [Network Monitoring](./network-monitoring.md)
-- [Expression Syntax](../expressions/overview.md)
+- [Production Quality Control](./production-quality)
+- [Network Monitoring](./network-monitoring)
+- [Expression Syntax](../expressions/overview)
 

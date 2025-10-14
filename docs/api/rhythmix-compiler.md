@@ -76,7 +76,7 @@ try {
 
 ## Next Steps
 
-- [RhythmixExecutor](./rhythmix-executor.md)
-- [RhythmixEventData](./rhythmix-event-data.md)
-- [Expression Syntax](../expressions/overview.md)
+- [RhythmixExecutor](./rhythmix-executor)
+- [RhythmixEventData](./rhythmix-event-data)
+- [Expression Syntax](../expressions/overview)
 

@@ -1,3 +1,10 @@
+<!--
+ * @Author: MFine
+ * @Date: 2025-10-09 00:12:55
+ * @LastEditTime: 2025-10-15 00:15:14
+ * @LastEditors: MFine
+ * @Description: 
+-->
 # RhythmixEventData
 
 The `RhythmixEventData` class is the core data object that flows through Rhythmix expressions.

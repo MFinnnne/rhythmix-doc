@@ -77,7 +77,7 @@ public class SensorMonitor {
 
 ## Next Steps
 
-- [Temperature Monitoring](./temperature-monitoring.md)
-- [Custom Filters](../advanced/custom-filters.md)
-- [Chain Expressions](../expressions/chain/overview.md)
+- [Temperature Monitoring](./temperature-monitoring)
+- [Custom Filters](../advanced/custom-filters)
+- [Chain Expressions](../expressions/chain/overview)
 

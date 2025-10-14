@@ -84,7 +84,7 @@ public class NetworkMonitor {
 
 ## Next Steps
 
-- [Temperature Monitoring](./temperature-monitoring.md)
-- [Production Quality](./production-quality.md)
-- [Window Functions](../expressions/chain/window.md)
+- [Temperature Monitoring](./temperature-monitoring)
+- [Production Quality](./production-quality)
+- [Window Functions](../expressions/chain/window)
 

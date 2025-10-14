@@ -84,7 +84,7 @@ Comprehensive examples of logical expressions in real-world scenarios.
 
 ## See Also
 
-- [Logical Expressions](../expressions/logical.md)
-- [Comparison Examples](./comparison-examples.md)
-- [Interval Examples](./interval-examples.md)
+- [Logical Expressions](../expressions/logical)
+- [Comparison Examples](./comparison-examples)
+- [Interval Examples](./interval-examples)
 

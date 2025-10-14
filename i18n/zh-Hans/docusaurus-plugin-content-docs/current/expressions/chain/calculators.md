@@ -164,7 +164,7 @@ String expression = "filter(>0).stddev().meet(<5)";
 
 您可以创建自定义计算器用于专门的计算。
 
-[了解更多关于自定义计算器 →](../../advanced/custom-calculators.md)
+[了解更多关于自定义计算器 →](../../advanced/custom-calculators)
 
 ## 最佳实践
 

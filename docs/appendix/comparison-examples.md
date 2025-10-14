@@ -62,7 +62,7 @@ Comprehensive examples of comparison expressions in real-world scenarios.
 
 ## See Also
 
-- [Comparison Expressions](../expressions/comparison.md)
-- [Interval Examples](./interval-examples.md)
-- [Logical Examples](./logical-examples.md)
+- [Comparison Expressions](../expressions/comparison)
+- [Interval Examples](./interval-examples)
+- [Logical Examples](./logical-examples)
 

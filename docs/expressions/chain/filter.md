@@ -263,8 +263,8 @@ String expression = "filter((>threshold&&<max)||==special_value).sum().meet(>tar
 
 ## Next Steps
 
-- [Limit](./limit.md) - Control data quantity
-- [Window](./window.md) - Time-based windows
-- [Take](./take.md) - Index-based selection
-- [Custom Filters](../../advanced/custom-filters.md) - Advanced filtering
+- [Limit](./limit) - Control data quantity
+- [Window](./window) - Time-based windows
+- [Take](./take) - Index-based selection
+- [Custom Filters](../../advanced/custom-filters) - Advanced filtering
 

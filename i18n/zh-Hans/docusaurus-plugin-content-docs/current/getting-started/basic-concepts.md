@@ -1,7 +1,7 @@
 <!--
  * @Author: MFine
  * @Date: 2025-10-14 20:01:02
- * @LastEditTime: 2025-10-14 22:40:38
+ * @LastEditTime: 2025-10-15 00:14:20
  * @LastEditors: MFine
  * @Description: 
 -->
@@ -178,7 +178,7 @@ filter(condition).limit(n).calculator().meet(condition)
 
 ## 下一步
 
-- 详细探索[表达式语法](../expressions/overview.md)
-- 学习[链式表达式](../expressions/chain/overview.md)
-- 查看[实际示例](../examples/temperature-monitoring.md)
+- 详细探索[表达式语法](../expressions/overview)
+- 学习[链式表达式](../expressions/chain/overview)
+- 查看[实际示例](../examples/temperature-monitoring)
 

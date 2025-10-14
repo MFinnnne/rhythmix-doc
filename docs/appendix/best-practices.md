@@ -263,6 +263,6 @@ RhythmixExecutor sharedExecutor = RhythmixCompiler.compile(expression); // ❌
 ## Next Steps
 
 - [FAQ](./faq.md)
-- [Expression Syntax](../expressions/overview.md)
-- [Examples](../examples/temperature-monitoring.md)
+- [Expression Syntax](../expressions/overview)
+- [Examples](../examples/temperature-monitoring)
 

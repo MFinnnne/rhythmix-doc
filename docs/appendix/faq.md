@@ -1,3 +1,10 @@
+<!--
+ * @Author: MFine
+ * @Date: 2025-10-09 00:15:53
+ * @LastEditTime: 2025-10-15 00:15:57
+ * @LastEditors: MFine
+ * @Description: 
+-->
 # Frequently Asked Questions
 
 Common questions and answers about Rhythmix.
@@ -142,7 +149,7 @@ Built-in calculators:
 
 Yes! Implement the `ChainCalculatorUDF` interface.
 
-[Learn more →](../advanced/custom-calculators.md)
+[Learn more →](../advanced/custom-calculators)
 
 ## State Transition Questions
 
@@ -242,7 +249,7 @@ Executors maintain state in memory. For persistence, you'll need to implement cu
 
 ## Next Steps
 
-- [Best Practices](./best-practices.md)
-- [Examples](../examples/temperature-monitoring.md)
-- [Expression Syntax](../expressions/overview.md)
+- [Best Practices](./best-practices)
+- [Examples](../examples/temperature-monitoring)
+- [Expression Syntax](../expressions/overview)
 

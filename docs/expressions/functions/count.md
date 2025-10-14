@@ -276,8 +276,8 @@ String expression = "count(>95, 10)";
 
 ## Next Steps
 
-- [count!() Function](./count-strict.md) - Consecutive counting
-- [Chain Expressions](../chain/overview.md) - Data processing pipelines
-- [State Transitions](../../advanced/state-transitions.md) - Complex patterns
-- [Examples](../../examples/temperature-monitoring.md) - Real-world use cases
+- [count!() Function](./count-strict) - Consecutive counting
+- [Chain Expressions](../chain/overview) - Data processing pipelines
+- [State Transitions](../../advanced/state-transitions) - Complex patterns
+- [Examples](../../examples/temperature-monitoring) - Real-world use cases
 

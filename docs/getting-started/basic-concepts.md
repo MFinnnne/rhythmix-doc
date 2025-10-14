@@ -147,7 +147,7 @@ Input Data → Expression Evaluation → State Management → Result (true/false
 
 ## Next Steps
 
-- Explore [Expression Syntax](../expressions/overview.md) in detail
-- Learn about [Chain Expressions](../expressions/chain/overview.md)
-- See [Real-world Examples](../examples/temperature-monitoring.md)
+- Explore [Expression Syntax](../expressions/overview) in detail
+- Learn about [Chain Expressions](../expressions/chain/overview)
+- See [Real-world Examples](../examples/temperature-monitoring)
 

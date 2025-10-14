@@ -84,7 +84,7 @@ public class QualityControl {
 
 ## Next Steps
 
-- [Temperature Monitoring](./temperature-monitoring.md)
-- [Network Monitoring](./network-monitoring.md)
-- [Interval Expressions](../expressions/interval.md)
+- [Temperature Monitoring](./temperature-monitoring)
+- [Network Monitoring](./network-monitoring)
+- [Interval Expressions](../expressions/interval)
 

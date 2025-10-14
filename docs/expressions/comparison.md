@@ -223,8 +223,8 @@ RhythmixEventData data = new RhythmixEventData("1", "value", "123", timestamp);
 
 ## Next Steps
 
-- [Interval Expressions](./interval.md) - Define ranges
-- [Logical Expressions](./logical.md) - Combine conditions
-- [Functions](./functions/count.md) - Pattern matching
-- [Examples](../examples/temperature-monitoring.md) - Real-world use cases
+- [Interval Expressions](./interval) - Define ranges
+- [Logical Expressions](./logical) - Combine conditions
+- [Functions](./functions/count) - Pattern matching
+- [Examples](../examples/temperature-monitoring) - Real-world use cases
 
