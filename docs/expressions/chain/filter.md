@@ -151,7 +151,7 @@ Rhythmix supports custom filter functions for complex filtering logic:
 String expression = "customFilter().sum().meet(>100)";
 ```
 
-[Learn more about Custom Filters →](../../advanced/custom-filters.md)
+[Learn more about Custom Filters →](../../advanced/custom-filters)
 
 ## Best Practices
 

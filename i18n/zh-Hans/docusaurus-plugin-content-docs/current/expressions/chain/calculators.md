@@ -212,8 +212,8 @@ String expression = "filter(>0).stddev().meet(<5)";
 
 ## 下一步
 
-- [Meet](./meet.md) - 验证结果
-- [自定义计算器](../../advanced/custom-calculators.md) - 创建您自己的计算器
-- [Filter](./filter.md) - 数据过滤
-- [示例](../../examples/temperature-monitoring.md) - 实际应用案例
+- [Meet](./meet) - 验证结果
+- [自定义计算器](../../advanced/custom-calculators) - 创建您自己的计算器
+- [Filter](./filter) - 数据过滤
+- [示例](../../examples/temperature-monitoring) - 实际应用案例
 

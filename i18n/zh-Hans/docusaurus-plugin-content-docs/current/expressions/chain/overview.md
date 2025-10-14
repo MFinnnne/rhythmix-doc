@@ -68,7 +68,7 @@ filter([10,20])     // 保留范围内的值
 filter(!=0&&!=(-1)) // 保留有效值
 ```
 
-[了解更多关于 Filter →](./filter.md)
+[了解更多关于 Filter →](./filter)
 
 ### 2. 限制阶段(可选)
 
@@ -82,8 +82,8 @@ window(5)      // 5 个值的滑动窗口
 window(10s)    // 10 秒的滑动窗口
 ```
 
-[了解更多关于 Limit →](./limit.md)
-[了解更多关于 Window →](./window.md)
+[了解更多关于 Limit →](./limit)
+[了解更多关于 Window →](./window)
 
 ### 3. 选取阶段(可选)
 
@@ -95,7 +95,7 @@ take(-3)     // 取最后 3 个值
 take(1,4)    // 取索引 1,2,3 的值
 ```
 
-[了解更多关于 Take →](./take.md)
+[了解更多关于 Take →](./take)
 
 ### 4. 计算阶段(必需)
 
@@ -108,7 +108,7 @@ count()    // 计数值
 stddev()   // 计算标准差
 ```
 
-[了解更多关于计算器 →](./calculators.md)
+[了解更多关于计算器 →](./calculators)
 
 ### 5. 验证阶段(必需)
 
@@ -120,7 +120,7 @@ meet([0,100])   // 结果必须在范围内
 meet(!=0)       // 结果不能为 0
 ```
 
-[了解更多关于 Meet →](./meet.md)
+[了解更多关于 Meet →](./meet)
 
 ## 实际应用示例
 
@@ -332,10 +332,10 @@ String expression = "filter(!=0).limit(10).stddev().meet(<5)";
 
 ## 下一步
 
-- [Filter](./filter.md) - 数据过滤
-- [Limit](./limit.md) - 数据限制
-- [Window](./window.md) - 滑动窗口
-- [Take](./take.md) - 数据选择
-- [Calculators](./calculators.md) - 计算
-- [Meet](./meet.md) - 结果验证
+- [Filter](./filter) - 数据过滤
+- [Limit](./limit) - 数据限制
+- [Window](./window) - 滑动窗口
+- [Take](./take) - 数据选择
+- [Calculators](./calculators) - 计算
+- [Meet](./meet) - 结果验证
 

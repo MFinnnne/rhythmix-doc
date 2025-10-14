@@ -164,7 +164,7 @@ You can use different calculators in different states:
 
 You can create custom calculators for specialized computations.
 
-[Learn more about Custom Calculators →](../../advanced/custom-calculators.md)
+[Learn more about Custom Calculators →](../../advanced/custom-calculators)
 
 ## Best Practices
 
@@ -212,8 +212,8 @@ You can create custom calculators for specialized computations.
 
 ## Next Steps
 
-- [Meet](./meet.md) - Validate results
-- [Custom Calculators](../../advanced/custom-calculators.md) - Create your own
-- [Filter](./filter.md) - Data filtering
-- [Examples](../../examples/temperature-monitoring.md) - Real-world use cases
+- [Meet](./meet) - Validate results
+- [Custom Calculators](../../advanced/custom-calculators) - Create your own
+- [Filter](./filter) - Data filtering
+- [Examples](../../examples/temperature-monitoring) - Real-world use cases
 

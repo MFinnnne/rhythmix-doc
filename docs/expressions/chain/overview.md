@@ -68,7 +68,7 @@ filter([10,20])     // Keep values in range
 filter(!=0&&!=(-1)) // Keep valid values
 ```
 
-[Learn more about Filter →](./filter.md)
+[Learn more about Filter →](./filter)
 
 ### 2. Limit Stage (Optional)
 
@@ -332,10 +332,10 @@ String expression = "filter(!=0).limit(10).stddev().meet(<5)";
 
 ## Next Steps
 
-- [Filter](./filter.md) - Data filtering
-- [Limit](./limit.md) - Data limiting
-- [Window](./window.md) - Sliding windows
-- [Take](./take.md) - Data selection
-- [Calculators](./calculators.md) - Calculations
-- [Meet](./meet.md) - Result validation
+- [Filter](./filter) - Data filtering
+- [Limit](./limit) - Data limiting
+- [Window](./window) - Sliding windows
+- [Take](./take) - Data selection
+- [Calculators](./calculators) - Calculations
+- [Meet](./meet) - Result validation
 

@@ -112,7 +112,7 @@ Rhythmix 还为常见条件提供了内置的 meet 函数:
 "filter(>0).count().evenMeet()"
 ```
 
-[了解更多关于自定义 Meet 函数 →](../../advanced/custom-meet-functions.md)
+[了解更多关于自定义 Meet 函数 →](../../advanced/custom-meet-functions)
 
 ## 高级用法
 
@@ -293,12 +293,12 @@ meet((>30||<10)&&!=20)  // 复杂逻辑
 "avg().customRangeMeet()"
 ```
 
-[了解更多关于自定义 Meet 函数 →](../../advanced/custom-meet-functions.md)
+[了解更多关于自定义 Meet 函数 →](../../advanced/custom-meet-functions)
 
 ## 下一步
 
-- [Calculators](./calculators.md) - 执行计算
-- [自定义 Meet 函数](../../advanced/custom-meet-functions.md) - 创建自定义验证
-- [链式概述](./overview.md) - 完整的链式表达式指南
-- [示例](../../examples/temperature-monitoring.md) - 实际应用
+- [Calculators](./calculators) - 执行计算
+- [自定义 Meet 函数](../../advanced/custom-meet-functions) - 创建自定义验证
+- [链式概述](./overview) - 完整的链式表达式指南
+- [示例](../../examples/temperature-monitoring) - 实际应用
 

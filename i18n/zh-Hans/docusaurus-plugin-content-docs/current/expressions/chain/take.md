@@ -330,8 +330,8 @@ String expression = "filter(>0).limit(100).take(10,-10).avg().meet(>50)";
 
 ## 下一步
 
-- [Filter](./filter.md) - 数据过滤
-- [Limit](./limit.md) - 数据限制
-- [Window](./window.md) - 滑动窗口
-- [Calculators](./calculators.md) - 执行计算
+- [Filter](./filter) - 数据过滤
+- [Limit](./limit) - 数据限制
+- [Window](./window) - 滑动窗口
+- [Calculators](./calculators) - 执行计算
 

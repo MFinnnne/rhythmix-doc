@@ -308,8 +308,8 @@ String expression = "{filter(>0).limit(5).sum().meet(>10)}->{filter(<0).limit(3)
 
 ## 下一步
 
-- [Window](./window.md) - 滑动窗口分析
-- [Take](./take.md) - 选择特定数据点
-- [Filter](./filter.md) - 数据过滤
-- [Calculators](./calculators.md) - 执行计算
+- [Window](./window) - 滑动窗口分析
+- [Take](./take) - 选择特定数据点
+- [Filter](./filter) - 数据过滤
+- [Calculators](./calculators) - 执行计算
 

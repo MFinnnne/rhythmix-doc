@@ -330,8 +330,8 @@ String expression = "filter(>0).limit(100).take(10,-10).avg().meet(>50)";
 
 ## Next Steps
 
-- [Filter](./filter.md) - Data filtering
-- [Limit](./limit.md) - Data limiting
-- [Window](./window.md) - Sliding windows
-- [Calculators](./calculators.md) - Perform calculations
+- [Filter](./filter) - Data filtering
+- [Limit](./limit) - Data limiting
+- [Window](./window) - Sliding windows
+- [Calculators](./calculators) - Perform calculations
 

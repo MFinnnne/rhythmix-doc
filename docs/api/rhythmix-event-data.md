@@ -112,7 +112,7 @@ RhythmixEventData responseData = new RhythmixEventData(
 
 ## Next Steps
 
-- [RhythmixCompiler](./rhythmix-compiler.md)
-- [RhythmixExecutor](./rhythmix-executor.md)
-- [Quick Start](../getting-started/quick-start.md)
+- [RhythmixCompiler](./rhythmix-compiler)
+- [RhythmixExecutor](./rhythmix-executor)
+- [Quick Start](../getting-started/quick-start)
 

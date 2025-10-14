@@ -263,8 +263,8 @@ String expression = "filter((>threshold&&<max)||==special_value).sum().meet(>tar
 
 ## 下一步
 
-- [Limit](./limit.md) - 控制数据数量
-- [Window](./window.md) - 基于时间的窗口
-- [Take](./take.md) - 基于索引的选择
-- [自定义过滤器](../../advanced/custom-filters.md) - 高级过滤
+- [Limit](./limit) - 控制数据数量
+- [Window](./window) - 基于时间的窗口
+- [Take](./take) - 基于索引的选择
+- [自定义过滤器](../../advanced/custom-filters) - 高级过滤
 

@@ -352,8 +352,8 @@ String expression = "filter(>0).window(20).stddev().meet(<5)";
 
 ## 下一步
 
-- [Limit](./limit.md) - 数据限制
-- [Take](./take.md) - 选择特定数据点
-- [Calculators](./calculators.md) - 执行计算
-- [Filter](./filter.md) - 数据过滤
+- [Limit](./limit) - 数据限制
+- [Take](./take) - 选择特定数据点
+- [Calculators](./calculators) - 执行计算
+- [Filter](./filter) - 数据过滤
 
