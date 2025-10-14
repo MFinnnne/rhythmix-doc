@@ -52,7 +52,7 @@
     "description": "The label for the doc item Basic Concepts in sidebar rhythmixSidebar, linking to the doc getting-started/basic-concepts"
   },
   "sidebar.rhythmixSidebar.doc.Expression Syntax Overview": {
-    "message": "表达式语法概述",
+    "message": "概述",
     "description": "The label for the doc item Expression Syntax Overview in sidebar rhythmixSidebar, linking to the doc expressions/overview"
   },
   "sidebar.rhythmixSidebar.doc.Comparison Expressions": {
@@ -76,7 +76,7 @@
     "description": "The label for the doc item Count! (Strict Count) Function in sidebar rhythmixSidebar, linking to the doc expressions/functions/count-strict"
   },
   "sidebar.rhythmixSidebar.doc.Chain Expressions Overview": {
-    "message": "链式表达式概述",
+    "message": "概述",
     "description": "The label for the doc item Chain Expressions Overview in sidebar rhythmixSidebar, linking to the doc expressions/chain/overview"
   },
   "sidebar.rhythmixSidebar.doc.Filter": {
