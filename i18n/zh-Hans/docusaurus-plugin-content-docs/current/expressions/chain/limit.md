@@ -85,36 +85,6 @@ String expression = "filter(>0).limit(100ms).avg().meet(>50)";
 String expression = "limit(5).sum().meet(>20)";
 ```
 
-## 实际应用示例
-
-### 温度监控
-
-```java
-// 最后 5 次温度读数的平均值
-String expression = "filter(>0).limit(5).avg().meet([20,30])";
-```
-
-### 生产质量控制
-
-```java
-// 最后 100 个产品重量的总和
-String expression = "filter([90,110]).limit(100).sum().meet([9500,10500])";
-```
-
-### 网络监控
-
-```java
-// 最后 10 秒的平均响应时间
-String expression = "filter(>0).limit(10s).avg().meet(<500)";
-```
-
-### 传感器数据处理
-
-```java
-// 最后 20 次读数的标准差
-String expression = "filter(!=0).limit(20).stddev().meet(<5)";
-```
-
 ## 可选限制
 
 如果不指定限制,数据会无限累积(谨慎使用):

@@ -77,36 +77,6 @@ String expression = "filter(>0).window(2).sum().meet(>10)";
 String expression = "filter(>0).window(5s).avg().meet(>50)";
 ```
 
-## 实际应用示例
-
-### 温度监控
-
-```java
-// 如果最后 10 秒的平均温度超过 30°C 则告警
-String expression = "filter(>0).window(10s).avg().meet(>30)";
-```
-
-### 生产质量控制
-
-```java
-// 检查最后 5 个产品是否都在规格范围内
-String expression = "filter([95,105]).window(5).count().meet(==5)";
-```
-
-### 网络监控
-
-```java
-// 如果最后 1 分钟的平均响应时间超过 500ms 则告警
-String expression = "filter(>0).window(1m).avg().meet(>500)";
-```
-
-### 传感器数据处理
-
-```java
-// 最后 10 次读数的标准差
-String expression = "filter(!=0).window(10).stddev().meet(<5)";
-```
-
 ## Window vs Limit
 
 **重要**: 不能在同一表达式中同时使用 `window()` 和 `limit()`。
@@ -320,35 +290,7 @@ String expression = "filter(>0).window(20).stddev().meet(<5)";
 | 小时 | `h` | `window(2h)` |
 | 天 | `d` | `window(1d)` |
 
-## 使用场景
 
-### 实时监控
-
-```java
-// 检测即时峰值
-"filter(>0).window(3).avg().meet(>threshold)"
-```
-
-### 趋势分析
-
-```java
-// 分析长期趋势
-"filter(>0).window(1h).avg().meet(>baseline)"
-```
-
-### 异常检测
-
-```java
-// 检测异常变异性
-"filter(>0).window(50).stddev().meet(>normal_stddev*2)"
-```
-
-### 质量控制
-
-```java
-// 确保质量一致
-"filter([min,max]).window(10).count().meet(==10)"
-```
 
 ## 下一步
 

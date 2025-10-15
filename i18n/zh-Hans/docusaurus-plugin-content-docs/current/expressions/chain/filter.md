@@ -18,8 +18,6 @@ filter(condition)
 3. **丢弃**不匹配的数据
 4. 将过滤后的数据传递到下一阶段
 
-## 基本示例
-
 ### 按比较过滤
 
 ```java
@@ -60,36 +58,6 @@ String expression = "filter(!=0&&!=(-1)).avg().meet(>50)";
 ```java
 // 无过滤 - 处理所有数据
 String expression = "sum().meet(>100)";
-```
-
-## 实际应用示例
-
-### 温度监控
-
-```java
-// 有效温度读数的平均值(排除错误代码 -999)
-String expression = "filter(!=(-999)).avg().meet([20,30])";
-```
-
-### 生产质量控制
-
-```java
-// 符合规格的产品总和
-String expression = "filter([95,105]).sum().meet(>1000)";
-```
-
-### 网络监控
-
-```java
-// 平均响应时间(排除标记为 -1 的超时)
-String expression = "filter(>0).avg().meet(<500)";
-```
-
-### 传感器数据处理
-
-```java
-// 计数有效传感器读数(排除 0 和 -1)
-String expression = "filter(!=0&&!=(-1)).count().meet(>10)";
 ```
 
 ## 高级用法
@@ -153,76 +121,6 @@ String expression = "customFilter().sum().meet(>100)";
 
 [了解更多关于自定义过滤器 →](../../advanced/custom-filters)
 
-## 最佳实践
-
-### 1. 尽早过滤
-
-```java
-// 好的做法: 首先过滤
-"filter(>0).limit(100).sum().meet(>1000)"
-
-// 效率较低: 限制包含无效数据
-"limit(100).sum().meet(>1000)"
-```
-
-### 2. 使用具体条件
-
-```java
-// 好的做法: 清晰的过滤条件
-"filter(>0&&<100)"
-
-// 避免: 过于复杂
-"filter((>0&&<10)||(>20&&<30)||(>40&&<50)||(>60&&<70))"
-// 考虑: 是否有更简单的模式?
-```
-
-### 3. 排除错误值
-
-```java
-// 好的做法: 明确排除错误代码
-"filter(!=0&&!=(-1)&&!=(-999))"
-```
-
-### 4. 记录复杂过滤器
-
-```java
-// 复杂过滤器 - 添加注释
-String expression = "filter((>threshold&&<max)||==special_value).sum().meet(>target)";
-// 过滤: 正常范围或特殊情况值
-```
-
-## 常见模式
-
-### 仅正值
-
-```java
-"filter(>0).calculator().meet(condition)"
-```
-
-### 有效范围
-
-```java
-"filter([min,max]).calculator().meet(condition)"
-```
-
-### 排除错误代码
-
-```java
-"filter(!=error1&&!=error2).calculator().meet(condition)"
-```
-
-### 多个有效范围
-
-```java
-"filter(range1||range2||range3).calculator().meet(condition)"
-```
-
-## 性能考虑
-
-- 过滤在管道早期减少数据
-- 简单条件(大于、小于、等于)最快
-- 复杂逻辑表达式稍慢
-- 在 limit/window 之前过滤以获得更好的性能
 
 ## 常见陷阱
 

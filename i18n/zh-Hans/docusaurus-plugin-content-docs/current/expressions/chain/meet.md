@@ -52,65 +52,6 @@ String expression = "filter(>0).avg().meet(>10||<5)";
 String expression = "filter(>0).sum().meet([0,100]&&!=50)";
 ```
 
-## 实际应用示例
-
-### 温度监控
-
-```java
-// 平均温度必须在舒适范围内
-String expression = "filter(>0).limit(10).avg().meet([20,26])";
-
-// 温度总和必须超过阈值
-String expression = "filter(>30).sum().meet(>100)";
-```
-
-### 生产质量控制
-
-```java
-// 批次总重量必须在规格范围内
-String expression = "filter([95,105]).sum().meet([950,1050])";
-
-// 至少 90% 的产品必须符合规格
-String expression = "filter([95,105]).count().meet(>90)";
-```
-
-### 网络监控
-
-```java
-// 平均响应时间必须低于 500ms
-String expression = "filter(>0).window(1m).avg().meet(<500)";
-
-// 5 分钟内慢响应不超过 10 次
-String expression = "filter(>1000).window(5m).count().meet(<=10)";
-```
-
-### 传感器数据处理
-
-```java
-// 标准差必须较低(读数一致)
-String expression = "filter(!=0).limit(20).stddev().meet(<5)";
-
-// 有效读数的总和必须为正
-String expression = "filter(!=0&&!=(-1)).sum().meet(>0)";
-```
-
-## 内置 Meet 函数
-
-Rhythmix 还为常见条件提供了内置的 meet 函数:
-
-```java
-// 阈值检查(value >= 10)
-"filter(>0).sum().thresholdMeet()"
-
-// 范围检查(5 <= value <= 50)
-"filter(>0).avg().rangeMeet()"
-
-// 正值检查(value > 0)
-"filter(>0).sum().positiveMeet()"
-
-// 偶数检查
-"filter(>0).count().evenMeet()"
-```
 
 [了解更多关于自定义 Meet 函数 →](../../advanced/custom-meet-functions)
 
