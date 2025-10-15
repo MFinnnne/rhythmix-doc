@@ -142,11 +142,6 @@ const sidebars: SidebarsConfig = {
                     id: 'advanced/custom-meet-functions',
                     label: 'Custom Meet Functions',
                 },
-                {
-                    type: 'doc',
-                    id: 'advanced/state-transitions',
-                    label: 'State Transitions',
-                },
             ],
         },
         {
@@ -172,73 +167,9 @@ const sidebars: SidebarsConfig = {
             ],
         },
         {
-            type: 'category',
-            label: '💡 Examples & Use Cases',
-            collapsed: true,
-            items: [
-                {
-                    type: 'doc',
-                    id: 'examples/temperature-monitoring',
-                    label: 'Temperature Monitoring',
-                },
-                {
-                    type: 'doc',
-                    id: 'examples/production-quality',
-                    label: 'Production Quality Control',
-                },
-                {
-                    type: 'doc',
-                    id: 'examples/network-monitoring',
-                    label: 'Network Monitoring',
-                },
-                {
-                    type: 'doc',
-                    id: 'examples/sensor-data',
-                    label: 'Sensor Data Processing',
-                },
-                {
-                    type: 'doc',
-                    id: 'examples/financial-risk',
-                    label: 'Financial Risk Detection',
-                },
-                {
-                    type: 'doc',
-                    id: 'examples/medical-devices',
-                    label: 'Medical Device Monitoring',
-                },
-            ],
-        },
-        {
-            type: 'category',
-            label: '📖 Appendix',
-            collapsed: true,
-            items: [
-                {
-                    type: 'doc',
-                    id: 'appendix/comparison-examples',
-                    label: 'Comparison Expression Examples',
-                },
-                {
-                    type: 'doc',
-                    id: 'appendix/interval-examples',
-                    label: 'Interval Expression Examples',
-                },
-                {
-                    type: 'doc',
-                    id: 'appendix/logical-examples',
-                    label: 'Logical Expression Examples',
-                },
-                {
-                    type: 'doc',
-                    id: 'appendix/best-practices',
-                    label: 'Best Practices',
-                },
-                {
-                    type: 'doc',
-                    id: 'appendix/faq',
-                    label: 'FAQ',
-                },
-            ],
+            type: 'doc',
+            id: 'appendix/faq',
+            label: 'FAQ',
         },
     ],
 

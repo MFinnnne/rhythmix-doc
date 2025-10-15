@@ -246,7 +246,6 @@ String expression = "{==0}->{count!(>4, 3)}->{count!(<2, 2)}->{==0}";
 ## 下一步
 
 - [链式表达式](../chain/overview) - 数据处理管道
-- [状态转换](../../advanced/state-transitions) - 复杂模式
 - [温度监控示例](../../examples/temperature-monitoring) - 实际应用案例
 - [质量控制示例](../../examples/production-quality) - 质量控制示例
 

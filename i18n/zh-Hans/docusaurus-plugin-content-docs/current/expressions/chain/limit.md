@@ -154,40 +154,6 @@ String expression = "filter(>0).limit(10).take(0,5).avg().meet(>50)";
 String expression = "{filter(>0).limit(5).sum().meet(>10)}->{filter(<0).limit(3).sum().meet(<(-5))}";
 ```
 
-## 最佳实践
-
-### 1. 设置适当的限制
-
-```java
-// 好的做法: 合理的限制
-"filter(>0).limit(100).avg().meet(>50)"
-
-// 避免: 过度限制
-"filter(>0).limit(1000000).avg().meet(>50)"  // 可能使用过多内存
-```
-
-### 2. 对实时数据使用基于时间的限制
-
-```java
-// 好的做法: 对流数据使用基于时间的限制
-"filter(>0).limit(1m).avg().meet(>threshold)"
-
-// 不太理想: 对时间敏感分析使用基于计数的限制
-"filter(>0).limit(100).avg().meet(>threshold)"  // 100 个数据点是多长时间?
-```
-
-### 3. 考虑数据速率
-
-```java
-// 高频数据(1000 点/秒)
-"filter(>0).limit(100ms).avg().meet(>50)"  // ~100 个点
-
-// 低频数据(1 点/秒)
-"filter(>0).limit(60).avg().meet(>50)"  // ~1 分钟的数据
-```
-
-### 4. 记录时间单位
-
 ```java
 // 清晰的时间单位
 "filter(>0).limit(5s).avg().meet(>50)"  // 5 秒
@@ -195,39 +161,6 @@ String expression = "{filter(>0).limit(5).sum().meet(>10)}->{filter(<0).limit(3)
 // 避免歧义
 "filter(>0).limit(5).avg().meet(>50)"  // 5 什么? 点还是秒?
 ```
-
-## 常见模式
-
-### 滚动平均
-
-```java
-"filter(>0).limit(n).avg().meet(>threshold)"
-```
-
-### 最近总和
-
-```java
-"filter([min,max]).limit(time).sum().meet([expected_min,expected_max])"
-```
-
-### 变异性检查
-
-```java
-"filter(>0).limit(n).stddev().meet(<max_deviation)"
-```
-
-### 基于时间的聚合
-
-```java
-"filter(>0).limit(duration).calculator().meet(condition)"
-```
-
-## 性能考虑
-
-- **基于计数的限制**: O(1) 插入和移除
-- **基于时间的限制**: 需要时间戳比较
-- **内存使用**: 与限制大小成正比
-- **建议**: 使用满足要求的最小限制
 
 ## 常见陷阱
 

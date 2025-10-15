@@ -67,37 +67,8 @@ String expression = "filter(>0).take(1,4).avg().meet(>5)";
 | `take(-3)` | `[3, 4, 5]` | 最后 3 个元素 |
 | `take(0)` | `[0, 1, 2, 3, 4, 5]` | 所有元素 |
 
-## 实际应用示例
 
-### 温度监控
-
-```java
-// 前 3 次读数的平均值
-String expression = "filter(>0).take(0,3).avg().meet([20,30])";
-```
-
-### 生产质量控制
-
-```java
-// 最后 5 个产品重量的总和
-String expression = "filter([90,110]).take(-5).sum().meet([475,525])";
-```
-
-### 网络监控
-
-```java
-// 最近 10 次响应时间的平均值
-String expression = "filter(>0).limit(100).take(-10).avg().meet(<500)";
-```
-
-### 传感器数据处理
-
-```java
-// 中间 10 次读数的标准差(排除两端的异常值)
-String expression = "filter(!=0).limit(20).take(5,15).stddev().meet(<5)";
-```
-
-## 与其他阶段结合
+## 与其他结合
 
 ### Filter + Take
 
@@ -149,47 +120,6 @@ String expression = "filter(>0).take(1,-1).avg().meet(>5)";
 String expression = "filter(>0).take(2,5).sum().meet(>10)";
 ```
 
-## 最佳实践
-
-### 1. 确保有足够的数据
-
-```java
-// 好的做法: 合理的选取范围
-"filter(>0).limit(20).take(0,10).avg().meet(>50)"
-
-// 有风险: 可能没有足够的数据
-"filter(>0).limit(5).take(0,10).avg().meet(>50)"
-// 只有 5 个值可用,但试图取 10 个!
-```
-
-### 2. 使用负索引表示"最后 N 个"
-
-```java
-// 好的做法: 意图清晰
-"filter(>0).take(-5).avg().meet(>50)"  // 最后 5 个元素
-
-// 不太清晰
-"filter(>0).take(n-5,n).avg().meet(>50)"  // 需要知道 n
-```
-
-### 3. 记住 End 是不包含的
-
-```java
-// 取索引 0, 1, 2 (不包含 3)
-"filter(>0).take(0,3).sum().meet(>10)"
-
-// 要包含索引 3,使用:
-"filter(>0).take(0,4).sum().meet(>10)"
-```
-
-### 4. 记录复杂的切片
-
-```java
-// 复杂切片 - 添加注释
-String expression = "filter(>0).limit(100).take(10,-10).avg().meet(>50)";
-// 取中间 80 个元素(跳过前 10 个和后 10 个)
-```
-
 ## 常见模式
 
 ### 前 N 个元素
@@ -216,18 +146,10 @@ String expression = "filter(>0).limit(100).take(10,-10).avg().meet(>50)";
 "filter(condition).take(start,-end).calculator().meet(condition)"
 ```
 
-## 性能考虑
-
-- `take()` 索引计算是 O(1)
-- 无数据复制 - 使用引用
-- 最小内存开销
-- 对任何范围大小都高效
-
 ## 常见陷阱
 
 ### 1. 结束索引超出范围
 
-```java
 // 可能没有 10 个元素
 "filter(>0).take(0,10).sum().meet(>100)"
 
@@ -297,37 +219,6 @@ String expression = "filter(>0).limit(100).take(10,-10).avg().meet(>50)";
 // 只取最后一个元素
 "filter(>0).take(-1).sum().meet(>10)"
 ```
-
-## 使用场景
-
-### 预热期
-
-```java
-// 跳过前 10 次读数(预热),分析其余
-"filter(>0).take(10).avg().meet(>50)"
-```
-
-### 仅最近数据
-
-```java
-// 仅使用最后 5 次读数
-"filter(>0).limit(100).take(-5).avg().meet(>threshold)"
-```
-
-### 异常值移除
-
-```java
-// 移除第一个和最后一个(潜在异常值),分析中间
-"filter(>0).take(1,-1).avg().meet(>50)"
-```
-
-### 批处理
-
-```java
-// 处理特定批次(索引 10-20)
-"filter(>0).take(10,20).sum().meet(>target)"
-```
-
 ## 下一步
 
 - [Filter](./filter) - 数据过滤
