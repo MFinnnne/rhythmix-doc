@@ -105,49 +105,10 @@ stddev()
 ### 示例
 
 ```java
-// 检查变异性
 String expression = "filter(>0).stddev().meet(<5)";
 
 // 数据: [10, 12, 11, 13]
 // 标准差: ~1.29
-```
-
-### 使用场景
-
-- 质量控制变异性
-- 一致性检查
-- 异常检测
-
-## 实际应用示例
-
-### 温度监控
-
-```java
-// 平均温度必须在范围内
-"filter(>0).limit(10).avg().meet([20,30])"
-
-// 温度变异性必须较低
-"filter(>0).limit(20).stddev().meet(<2)"
-```
-
-### 生产质量
-
-```java
-// 批次总重量
-"filter([95,105]).sum().meet([950,1050])"
-
-// 符合规格的产品数量
-"filter([95,105]).count().meet(>90)"
-```
-
-### 网络监控
-
-```java
-// 平均响应时间
-"filter(>0).window(1m).avg().meet(<500)"
-
-// 慢响应的数量
-"filter(>1000).window(5m).count().meet(<10)"
 ```
 
 ## 组合计算器
@@ -180,7 +141,7 @@ String expression = "filter(>0).stddev().meet(<5)";
 // 用于计数
 "count().meet(>10)"
 
-// 用于变异性
+// 用于标准差
 "stddev().meet(<5)"
 ```
 
@@ -200,15 +161,6 @@ String expression = "filter(>0).stddev().meet(<5)";
 // 在计算前过滤掉无效值
 "filter(!=0&&!=(-1)).avg().meet(>50)"
 ```
-
-## 性能
-
-| 计算器 | 性能 | 备注 |
-|------------|-------------|-------|
-| sum() | O(n) | 快速 |
-| avg() | O(n) | 快速 |
-| count() | O(1) | 最快 |
-| stddev() | O(n) | 需要两次遍历 |
 
 ## 下一步
 
